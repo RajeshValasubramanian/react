@@ -1,19 +1,4 @@
-/*   <div>
-            <h1>Employee Form</h1>
-            <form onSubmit={handleSubmit}>
-                <input type="text" placeholder="Name" name="name" value={detail.name} onChange={handleChange}/>
-                <input type="text" placeholder="Age" name="age" value={detail.age} onChange={handleChange}/>
-                <input type="text" placeholder="Department" name="department" value={detail.department} onChange={handleChange}/>
-                <input type="text" placeholder="Position" name="position" value={detail.position} onChange={handleChange}/>
-                <input type="text" placeholder="Salary" name="salary" value={detail.salary} onChange={handleChange}/>
-                <button type="submit">{detail.id?"Update":"Submit"}</button>
-            </form>
-            <Displayform details={details} onEdit={onEdit} onDelete={onDelete}/>
-        </div> */
 
-        /* add styles to the form with interactive ui backgorund image color, font color,button color, add more effects to make attractive  */
-        /* add more styles to make it more attractive also green color button for edit and red for delete */
-   
 
         h2{
             text-align: center;
