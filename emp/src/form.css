@@ -1,0 +1,100 @@
+/*   <div>
+            <h1>Employee Form</h1>
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="Name" name="name" value={detail.name} onChange={handleChange}/>
+                <input type="text" placeholder="Age" name="age" value={detail.age} onChange={handleChange}/>
+                <input type="text" placeholder="Department" name="department" value={detail.department} onChange={handleChange}/>
+                <input type="text" placeholder="Position" name="position" value={detail.position} onChange={handleChange}/>
+                <input type="text" placeholder="Salary" name="salary" value={detail.salary} onChange={handleChange}/>
+                <button type="submit">{detail.id?"Update":"Submit"}</button>
+            </form>
+            <Displayform details={details} onEdit={onEdit} onDelete={onDelete}/>
+        </div> */
+
+        /* add styles to the form with interactive ui backgorund image color, font color,button color, add more effects to make attractive  */
+        /* add more styles to make it more attractive also green color button for edit and red for delete */
+   
+
+        h2{
+            text-align: center;
+        }
+    
+            div{
+                background-color: #f2f2f2;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+    
+            h1{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    
+            form{
+                display: flex;
+                flex-direction: column;
+            }
+    
+            input{
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+    
+            button{
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+              
+    
+            button:hover{
+                background-color: #45a049;
+            }
+    
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 20px;
+            }
+    
+            th, td{
+                padding: 10px;
+                text-align: left;
+                border-bottom: 1px solid #ddd;
+            }
+    
+            th{
+                background-color: #f2f2f2;
+            }
+    
+            tr:nth-child(even){
+                background-color: #f2f2f2;
+            }
+    
+            tr:hover{
+                background-color: #ddd;
+            }
+            #btn{
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            #btn1{
+                padding: 10px 20px;
+                background-color: #c22712;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+
